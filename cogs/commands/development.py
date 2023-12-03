@@ -19,8 +19,8 @@ class DevelopmentCog(commands.Cog):
         Terminate robot activity
         :param none:
         """
-        await ctx.send(f"Raspberry shutdown at **{get_london_time()}**!")
-        print(f"Raspberry shutdown at {get_london_time()}!")
+        await ctx.send(f"Blackberry shutdown at **{get_london_time()}**!")
+        print(f"Blackberry shutdown at {get_london_time()}!")
         await ctx.message.delete()
         await self.bot.close()
 
